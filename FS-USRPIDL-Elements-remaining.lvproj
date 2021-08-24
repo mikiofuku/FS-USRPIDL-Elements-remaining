@@ -22,6 +22,7 @@
 			<Item Name="Get FPGA Ref.vi" Type="VI" URL="../SubVI/Get FPGA Ref.vi"/>
 			<Item Name="Update FIFO overflow.vi" Type="VI" URL="../SubVI/Update FIFO overflow.vi"/>
 			<Item Name="output csv buffer overflow.vi" Type="VI" URL="../SubVI/output csv buffer overflow.vi"/>
+			<Item Name="make log filename.vi" Type="VI" URL="../SubVI/benchmark/make log filename.vi"/>
 		</Item>
 		<Item Name="Project Documentation" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
@@ -4481,13 +4482,11 @@
 			</Item>
 			<Item Name="buffer - 2.vi" Type="VI" URL="../SubVI/buffer - 2.vi"/>
 			<Item Name="FGV Mode.ctl" Type="VI" URL="../SubVI/FGV Mode.ctl"/>
-			<Item Name="Get ControlValue (bool).vi" Type="VI" URL="../SubVI/benchmark/Get ControlValue (bool).vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Run SubVI.vi" Type="VI" URL="../SubVI/benchmark/Run SubVI.vi"/>
-			<Item Name="Set ControlValue (bool).vi" Type="VI" URL="../SubVI/benchmark/Set ControlValue (bool).vi"/>
 			<Item Name="Set VI param.vi" Type="VI" URL="../SubVI/benchmark/Set VI param.vi"/>
 			<Item Name="時刻からファイル名生成.vi" Type="VI" URL="../SubVI/benchmark/時刻からファイル名生成.vi"/>
 			<Item Name="出力フォルダを作成する.vi" Type="VI" URL="../SubVI/benchmark/出力フォルダを作成する.vi"/>
