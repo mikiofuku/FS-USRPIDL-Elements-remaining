@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="18008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="varPersistentID:{01F50A38-A1E7-4152-853C-5B8BA752CF70}" Type="Ref">/マイ コンピュータ/Lib.lvlib/host FIFO depth</Property>
 	<Item Name="マイ コンピュータ" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -4386,6 +4387,7 @@
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="Lib.lvlib" Type="Library" URL="../SubVI/Lib.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">2</Property>
 			<Item Name="instr.lib" Type="Folder">
@@ -4477,31 +4479,18 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
-			<Item Name="Batch Parameter.ctl" Type="VI" URL="../SubVI/Ctl/Batch Parameter.ctl"/>
-			<Item Name="Benchmark param.ctl" Type="VI" URL="../SubVI/SubVI/Benchmark param.ctl"/>
-			<Item Name="bool pair.ctl" Type="VI" URL="../SubVI/SubVI/bool pair.ctl"/>
 			<Item Name="buffer - 2.vi" Type="VI" URL="../SubVI/buffer - 2.vi"/>
 			<Item Name="FGV Mode.ctl" Type="VI" URL="../SubVI/FGV Mode.ctl"/>
-			<Item Name="Get ControlValue (bool).vi" Type="VI" URL="../../../../VILib/VILib.lvlibp/VI/Get ControlValue/Get ControlValue (bool).vi"/>
-			<Item Name="Get ControlValue.vi" Type="VI" URL="../../../../VILib/VILib.lvlibp/VI/Get ControlValue/Get ControlValue.vi"/>
+			<Item Name="Get ControlValue (bool).vi" Type="VI" URL="../SubVI/benchmark/Get ControlValue (bool).vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Runtime error.vi" Type="VI" URL="../SubVI/SubVI/Runtime error.vi"/>
-			<Item Name="rx output csv.vi" Type="VI" URL="../SubVI/SubVI/rx output csv.vi"/>
-			<Item Name="Rx Streaming (Host) - all-in-one.vi" Type="VI" URL="../../../App/Rx Streaming (Host) - all-in-one.vi"/>
-			<Item Name="Set ControlValue (bool).vi" Type="VI" URL="../../../../VILib/VILib.lvlibp/VI/Set ControlValue/Set ControlValue (bool).vi"/>
-			<Item Name="Set ControlValue.vi" Type="VI" URL="../../../../VILib/VILib.lvlibp/VI/Set ControlValue/Set ControlValue.vi"/>
-			<Item Name="Set VI param.vi" Type="VI" URL="../SubVI/SubVI/Set VI param.vi"/>
-			<Item Name="Update bitfile.vi" Type="VI" URL="../SubVI/SubVI/Update bitfile.vi"/>
-			<Item Name="Update bool pair.vi" Type="VI" URL="../SubVI/SubVI/Update bool pair.vi"/>
-			<Item Name="Update host FIFO.vi" Type="VI" URL="../SubVI/SubVI/Update host FIFO.vi"/>
-			<Item Name="Update Number of samples.vi" Type="VI" URL="../SubVI/SubVI/Update Number of samples.vi"/>
-			<Item Name="Update other values.vi" Type="VI" URL="../SubVI/SubVI/Update other values.vi"/>
-			<Item Name="Update USRP device.vi" Type="VI" URL="../SubVI/SubVI/Update USRP device.vi"/>
-			<Item Name="USRP Pair Cluster.ctl" Type="VI" URL="../SubVI/SubVI/USRP Pair Cluster.ctl"/>
-			<Item Name="出力フォルダを作成する.vi" Type="VI" URL="../../../../VILib/VILib.lvlibp/FileIO/出力フォルダを作成する.vi"/>
+			<Item Name="Run SubVI.vi" Type="VI" URL="../SubVI/benchmark/Run SubVI.vi"/>
+			<Item Name="Set ControlValue (bool).vi" Type="VI" URL="../SubVI/benchmark/Set ControlValue (bool).vi"/>
+			<Item Name="Set VI param.vi" Type="VI" URL="../SubVI/benchmark/Set VI param.vi"/>
+			<Item Name="時刻からファイル名生成.vi" Type="VI" URL="../SubVI/benchmark/時刻からファイル名生成.vi"/>
+			<Item Name="出力フォルダを作成する.vi" Type="VI" URL="../SubVI/benchmark/出力フォルダを作成する.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
