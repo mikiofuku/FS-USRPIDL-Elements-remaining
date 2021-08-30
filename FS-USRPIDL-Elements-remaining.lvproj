@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="18008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="varPersistentID:{01F50A38-A1E7-4152-853C-5B8BA752CF70}" Type="Ref">/マイ コンピュータ/Lib.lvlib/host FIFO depth</Property>
 	<Item Name="マイ コンピュータ" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
